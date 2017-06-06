@@ -1,1 +1,17 @@
-main.css
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.box-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+picture{
+	position: absolute;
+	bottom: 0;
+}
+
+

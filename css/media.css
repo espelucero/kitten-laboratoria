@@ -1,1 +1,30 @@
-media.css
+@media only screen and (min-width: 1px) and (max-width: 499px) {
+    body {
+        background-image: url(../img/maxresdefault.jpg);
+        background-color: green;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+    body {
+        background-image: url(../img/dawn.png);
+        background-color: green;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+@media only screen and (min-width: 800px) {
+    body {
+        background-image: url(../img/Landscape.jpg);
+        background-color: green;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
